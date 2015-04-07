@@ -1,3 +1,14 @@
+comex note: I took the below tool and trivially stripped it down for testing
+Mac apps, by removing all but the core function hooks and switching them to use
+dyld interposing.  To use it, just compile it and run your app with
+'DYLD_INSERT_LIBRARIES=/path/to/sslkill.dylib'.
+
+Canonical repository for this: https://github.com/comex/ios-ssl-kill-switch
+
+Original readme follows.
+
+
+
 iOS SSL Kill Switch
 ===================
 
